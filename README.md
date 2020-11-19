@@ -1,2 +1,3 @@
 # math-aaa
-A python repository containing math scripts.
+
+A mainly Python repository containing math scripts.
