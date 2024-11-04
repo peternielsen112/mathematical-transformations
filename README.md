@@ -16,7 +16,6 @@
   - [Reflection](#reflection)
   - [Rotations](#rotations)
   - [Translations](#translations)
-- [About the Creator](#about-the-creator)
 
 ---
 ## Overview
@@ -52,8 +51,3 @@ The program rotations-singlepoint.py is run from the command line using `python3
 ### Translation
 
 The program translations-singlepoint.py is run from the command line using `python3 translations-singlepoint.py`. You will be prompted to enter the current coordinates of the point and then the direction of change for x (left/right) and the number of units right or left. Then you will be prompted to enter the direction of change for y (up or down) and the number of units up or down. The program will return the coordinates of the point after the specified translation.
-
-## About the Creator
-
-I create programs in a variety of languages, from Python to JavaScript to CSS and more. I'm on GitHub: [@peternielsen112](https://github.com/peternielsen112) and also [Replit.com](https://replit.com/@peternielsen112) by the same username.
-Please email any problems or suggestions to me at <dirigo112@gmail.com>.
