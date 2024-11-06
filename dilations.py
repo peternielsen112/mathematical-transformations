@@ -28,6 +28,7 @@ elif k > 1:
 else:
   docalculation = False
   print("You entered an invalid scale factor.")
+  quit()
 
 points = [(coord1x, coord1y),(coord2x,coord2y),(coord3x,coord3y)]
 x_coords = [p[0] for p in points]
@@ -52,9 +53,18 @@ if docalculation == True:
 plotyes = input('Plot answer? (y/n) ')
 
 if plotyes == 'y':
-  plt.plot(x_coords,y_coords,marker='o')
-  plt.xlabel('X-axis')
-  plt.ylabel('Y-axis')
+  points = [[coord1xnew, coord1ynew],[coord2xnew,coord2ynew],[coord3xnew,coord3ynew]]
+  x_coords = [p[0] for p in points]
+  y_coords = [p[1] for p in points]
+  print(x_coords)
+  print(y_coords)
+# Plot the triangle
+  plt.plot(x_coords, y_coords, 'r-')  # 'r-' specifies red lines
+
+# Fill the triangle (optional)
+  plt.fill(x_coords, y_coords, 'b', alpha=0.3)  # 'b' for blue, alpha for transparency
+
+# Show the plot
   plt.show()
 else:
-  pass
+    pass
